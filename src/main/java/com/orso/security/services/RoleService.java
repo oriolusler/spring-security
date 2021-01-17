@@ -1,7 +1,8 @@
-package com.orso.security.repository;
+package com.orso.security.services;
 
 import com.orso.security.models.ERole;
 import com.orso.security.models.Role;
+import com.orso.security.repository.RoleRepository;
 import org.springframework.stereotype.Service;
 
 import static com.orso.security.general.GeneralMessages.ROLE_NOT_FOUND;

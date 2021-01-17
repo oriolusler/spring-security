@@ -1,7 +1,8 @@
-package com.orso.security.repository;
+package com.orso.security.services;
 
 import com.orso.security.models.AuthType;
 import com.orso.security.models.EAuthType;
+import com.orso.security.repository.AuthTypeRepository;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 

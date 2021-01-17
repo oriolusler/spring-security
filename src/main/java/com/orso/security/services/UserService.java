@@ -1,7 +1,8 @@
-package com.orso.security.repository;
+package com.orso.security.services;
 
 import com.orso.security.models.AuthType;
 import com.orso.security.models.User;
+import com.orso.security.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service

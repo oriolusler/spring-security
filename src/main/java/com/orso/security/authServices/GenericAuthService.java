@@ -1,15 +1,17 @@
-package com.orso.security.services;
+package com.orso.security.authServices;
 
 import com.orso.security.exception.SignUpException;
 import com.orso.security.models.*;
 import com.orso.security.payload.request.SignupRequest;
 import com.orso.security.payload.response.JwtResponse;
-import com.orso.security.repository.*;
 import com.orso.security.security.jwt.JwtUtils;
 import com.orso.security.security.services.UserDetailsImpl;
-import com.orso.security.services.servicesAction.IAuthService;
-import com.orso.security.services.servicesAction.ILogin;
-import com.orso.security.services.servicesAction.IRegister;
+import com.orso.security.authServices.authServicesAction.IAuthService;
+import com.orso.security.authServices.authServicesAction.ILogin;
+import com.orso.security.authServices.authServicesAction.IRegister;
+import com.orso.security.services.AuthTypeService;
+import com.orso.security.services.RoleService;
+import com.orso.security.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

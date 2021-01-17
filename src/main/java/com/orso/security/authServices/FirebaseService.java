@@ -1,4 +1,4 @@
-package com.orso.security.services;
+package com.orso.security.authServices;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthException;
@@ -11,7 +11,7 @@ import com.orso.security.payload.request.LoginRequest;
 import com.orso.security.payload.request.SignupRequest;
 import com.orso.security.payload.response.JwtResponse;
 import com.orso.security.security.firebase.FirebaseAuthenticationProvider;
-import com.orso.security.services.servicesAction.IValidateExternalServiceToken;
+import com.orso.security.authServices.authServicesAction.IValidateExternalServiceToken;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

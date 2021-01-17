@@ -1,4 +1,4 @@
-package com.orso.security.services;
+package com.orso.security.authServices;
 
 import com.orso.security.exception.SignUpException;
 import com.orso.security.models.AuthType;

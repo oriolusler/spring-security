@@ -3,7 +3,7 @@ package com.orso.security.security.firebase;
 
 import com.orso.security.models.AuthType;
 import com.orso.security.models.User;
-import com.orso.security.repository.AuthTypeService;
+import com.orso.security.services.AuthTypeService;
 import com.orso.security.security.services.UserDetailsServiceImpl;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,4 +1,4 @@
-package com.orso.security.services.servicesAction;
+package com.orso.security.authServices.authServicesAction;
 
 import com.google.firebase.auth.FirebaseToken;
 import com.orso.security.exception.FirebaseServiceException;

@@ -1,7 +1,7 @@
-package com.orso.security.services;
+package com.orso.security.authServices;
 
 import com.orso.security.models.EAuthType;
-import com.orso.security.services.servicesAction.IAuthService;
+import com.orso.security.authServices.authServicesAction.IAuthService;
 import org.springframework.stereotype.Service;
 
 @Service
