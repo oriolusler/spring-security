@@ -94,4 +94,12 @@ public class User {
     public void setAuthType(AuthType authType) {
         this.authType = authType;
     }
+
+    public String getAuthServiceId() {
+        return authServiceId;
+    }
+
+    public void setAuthServiceId(String authServiceId) {
+        this.authServiceId = authServiceId;
+    }
 }

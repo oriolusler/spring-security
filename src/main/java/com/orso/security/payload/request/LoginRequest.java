@@ -3,37 +3,51 @@ package com.orso.security.payload.request;
 import com.orso.security.models.EAuthType;
 
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 public class LoginRequest {
-	//@NotBlank
-	private String username;
+    @NotBlank
+    @NotNull
+    private String username;
 
-	//@NotBlank
-	private String password;
+    @NotBlank
+    @NotNull
+    private String password;
 
-	private EAuthType authType;
+    @NotBlank
+    @NotNull
+    private String token;
 
-	public String getUsername() {
-		return username;
-	}
+    @NotBlank
+    @NotNull
+    private EAuthType authType;
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+    public String getUsername() {
+        return username;
+    }
 
-	public String getPassword() {
-		return password;
-	}
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
+    public String getPassword() {
+        return password;
+    }
 
-	public EAuthType getAuthType() {
-		return authType;
-	}
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
-	public void setAuthType(EAuthType authType) {
-		this.authType = authType;
-	}
+    public EAuthType getAuthType() {
+        return authType;
+    }
+
+    public void setAuthType(EAuthType authType) {
+        this.authType = authType;
+    }
+
+    public String getToken(){
+        return this.token;
+    }
+
 }

@@ -5,7 +5,14 @@ public enum ERole {
     ROLE_MODERATOR("moderator"),
     ROLE_ADMIN("admin");
 
+    private final String role;
+
     ERole(String role) {
+        this.role = role;
+    }
+
+    public String getRole() {
+        return role;
     }
 
     public static ERole getERole(String role) {

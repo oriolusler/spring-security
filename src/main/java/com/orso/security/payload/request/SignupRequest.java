@@ -7,10 +7,12 @@ import java.util.Set;
 
 public class SignupRequest {
     @NotBlank
+    @NotNull
     @Size(min = 3, max = 20)
     private String username;
  
     @NotBlank
+    @NotNull
     @Size(max = 50)
     @Email
     private String email;
@@ -21,6 +23,8 @@ public class SignupRequest {
     @Size(min = 6, max = 40)
     private String password;
 
+    @NotNull
+    @NotBlank
     private EAuthType authType;
 
     private String firebaseToken;
